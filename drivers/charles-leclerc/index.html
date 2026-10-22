@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" sizes="32x32" />
+		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			try {
+				/** @type {'light' | 'dark' | 'system'} */
+				const savedTheme = localStorage.getItem('evidence-theme') ?? 'system';
+				const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				const theme = savedTheme === 'system' ? (prefersDark ? 'dark' : 'light') : savedTheme;
+				document.documentElement.setAttribute('data-theme', theme);
+			} catch (e) {}
+		</script>
+		
+		<link href="/_app/immutable/assets/0.BekrSqLo.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/VennDiagram.BCpuTJYF.css" rel="stylesheet">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.B3uyP14E.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.DzP7nCf5.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.fW7yY31m.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.BQDAQzQu.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.D7HrI6pR.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.DLlk0QKX.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/0.BUwNDjwb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.rV6zwFgL.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/VennDiagram.svelte_svelte_type_style_lang.YyYGKAEJ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/setTrackProxy.DjIbdjlZ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/stores.adFM5OC5.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.C0x-XeZ7.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scroll.BsCb62YC.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/button.BhD1Se51.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/AccordionItem.FYNONuHZ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/checkRequiredProps.o_C_V3S5.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/11.IAd94_PR.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/SortedLineChart.hDHjt0DN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/sortedTooltip.BqKhJuvY.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/Grid.CtPFXHqb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/QueryViewer.Bv4472B1.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BigValue.Bavyh20w.js"><title>Evidence</title><!-- HEAD_svelte-2igo1p_START --> <meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@evidence_dev"><!-- HEAD_svelte-2igo1p_END -->
+	</head>
+	<body>
+		<script>
+			
+		</script>
+		<div>
+			<!-- SvelteKit Hydrated Content -->
+			   <div class="z-[1] fixed right-0 bottom-0 mx-10 my-6 w-80"></div> <div data-sveltekit-preload-data="hover" class="antialiased"> <header class="fixed w-full top-0 z-40 flex h-12 shrink-0 justify-start items-center gap-x-4 border-b border-base-300/50 bg-base-100/90 backdrop-blur print:hidden"><div class=" max-w-7xl mx-auto px-5 sm:px-6 md:px-12 flex flex-1 items-center justify-between" style="max-width:undefinedpx;"><div class="flex gap-x-4 items-center"><button type="button" class="text-base-content hover:bg-base-200 rounded-lg p-1 -ml-1 transition-all duration-500 md:hidden"><span class="sr-only" data-svelte-h="svelte-73kebv">Open sidebar</span> <svg class="w-5 h-5" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 6l16 0"></path><path d="M4 12l16 0"></path><path d="M4 18l16 0"></path></svg></button> <a href="/" class="text-sm font-bold text-base-content hidden md:block">F1 Analysis</a></div> <div class="flex gap-2 text-sm items-center"> <div class="flex gap-2 items-center">   </div> <div class="relative"> <button type="button" tabindex="0" aria-controls="kDRdTSooOp" aria-expanded="false" data-state="closed" id="Swl8NMbWE1" data-melt-dropdown-menu-trigger="" data-menu-trigger="" class="inline-flex items-center justify-center font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-base-content-muted disabled:pointer-events-none disabled:opacity-50 hover:text-base-content h-8 rounded-md text-xs px-1 hover:bg-base-200 shadow-base-200" aria-label="Menu" data-button-root=""><svg class="h-6 w-6" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path></svg></button> </div></div></div></header> <div class=" max-w-7xl print:w-[650px] print:md:w-[841px] mx-auto print:md:px-0 print:px-0 px-6 sm:px-8 md:px-12 flex justify-start" style="max-width:undefinedpx;"><div class="print:hidden">  <aside class="w-48 flex-none hidden md:flex"><div class="hidden: md:block fixed w-48 top-20 bottom-8 overflow-y-auto flex-1 text-sm pretty-scrollbar"><div class="flex flex-col pb-6"><a class="sticky top-0 bg-base-100 shadow shadow-base-100 font-semibold pb-1 mb-1 group inline-block capitalize hover:underline text-base-heading" href="/">Home</a>  <a class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content" href="/races">Races  </a> <a class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content" href="/drivers">Drivers  </a> <a class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content" href="/teams">Teams  </a> <a class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content" href="/compare">Head to Head  </a></div> <div class="flex flex-col pb-6"><span class="sticky top-0 bg-base-100 shadow shadow-base-100 font-semibold pb-1 mb-1 group inline-block capitalize text-base-heading z-10">analysis  </span>  <a href="/analysis/car-performance" class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content">Car Performance  </a>  <a href="/analysis/teammates" class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content">Teammate Battles  </a>  <a href="/analysis/racecraft" class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content">Racecraft  </a>  <a href="/analysis/tyres" class="group inline-block py-1 capitalize transition-all duration-100 text-base-content-muted hover:text-base-content">Tyre Degradation  </a>  </div></div> </aside></div> <main class="md:pl-8 md:pr-8  mt-16 sm:mt-20 flex-grow overflow-x-hidden print:px-0 print:mt-8"><div class="print:hidden"><div class="flex items-start mt-0 whitespace-nowrap overflow-auto"><div class="inline-flex items-center text-sm capitalize gap-1 text-base-content-muted mb-2 sm:mb-4"><a href="/" class="hover:underline">Home </a><svg class="icon icon-tabler icon-tabler-chevron-right" width="12px" height="12px" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6l-6 6"></path></svg> <a href="/drivers" class="hover:underline">Drivers</a><svg class="icon icon-tabler icon-tabler-chevron-right" width="12px" height="12px" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6l-6 6"></path></svg> <a href="/drivers/charles-leclerc" class="hover:underline">charles leclerc</a></div></div></div> <article id="evidence-main-article" class="select-text markdown pb-10">      <div class="over-container svelte-1p12lev"> </div> <div class="over-container svelte-1p12lev"> </div> <img src="https://media.formula1.com/image/upload/c_thumb,g_face,w_240,h_240,z_0.6/q_auto/common/f1/2026/ferrari/chalec01/2026ferrarichalec01right.webp" alt="" class="h-24 float-right"> <h1 class="markdown" id="seasons0driver_name"><a href="#seasons0driver_name">Charles Leclerc</a></h1> <p class="markdown">Ferrari · LEC<span> · MON</span></p> <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">  <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Starts (since 2023) </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">86 </span> </div> </div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Wins </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">4 </span> </div> </div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Podiums </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">31 </span> </div> </div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Poles </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">7 </span> </div> </div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Points </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">1,019 </span> </div> </div></div> <h2 class="markdown" id="season-by-season" data-svelte-h="svelte-1hwlr45"><a href="#season-by-season">Season by Season</a></h2>                 <div data-testid="DataTable-seasons" role="none" class="table-container mt-2 mb-2 svelte-1vxfjlq">  <div class="scrollbox pretty-scrollbar svelte-1vxfjlq"><table class="svelte-1vxfjlq"><thead> <tr class="border-b border-base-content-muted/60">   </tr> </thead> <tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr> </table></div> <div class="noresults svelte-1vxfjlq" data-svelte-h="svelte-l3t0gi">No Results</div> <div class="table-footer mt-3 svelte-1vxfjlq"> </div></div>  <h2 class="markdown" id="race-finishes" data-svelte-h="svelte-eooh02"><a href="#race-finishes">Race Finishes</a></h2> <div class="over-container svelte-1p12lev"> </div>       <div role="none" class="chart-container mt-2 mb-3 svelte-19r8f8"><div role="status" class="animate-pulse"><span class="sr-only" data-svelte-h="svelte-1wtojot">Loading...</span> <div class="bg-base-100 rounded-md max-w-[100%]" style="height:229px; margin-top: 15px; margin-bottom: 31px;"></div></div>  <div class="chart-footer svelte-19r8f8"> </div> </div>  <h2 class="markdown" id="qualifying-vs-teammate" data-svelte-h="svelte-17rvzvw"><a href="#qualifying-vs-teammate">Qualifying vs Teammate</a></h2> <div class="over-container svelte-1p12lev"> </div>           <div data-testid="DataTable-quali_h2h" role="none" class="table-container mt-2 mb-2 svelte-1vxfjlq">  <div class="scrollbox pretty-scrollbar svelte-1vxfjlq"><table class="svelte-1vxfjlq"><thead> <tr class="border-b border-base-content-muted/60">   </tr> </thead> <tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr><tr class="border-b border-base-content-muted/20 svelte-orfja7">   </tr> </table></div> <div class="noresults svelte-1vxfjlq" data-svelte-h="svelte-l3t0gi">No Results</div> <div class="table-footer mt-3 svelte-1vxfjlq"> </div></div> </article></main> <div class="print:hidden"><aside class="hidden lg:block w-48"><div class="fixed w-48 top-20 bottom-20 pl-4 px-3 overflow-auto pretty-scrollbar"></div></aside></div></div></div>  
+			<script type="application/json" data-sveltekit-fetched data-url="/api/customFormattingSettings.json/GET.json">{"status":200,"statusText":"","headers":{},"body":"{\"customFormattingSettings\":{\"version\":\"1.0\",\"customFormats\":[]}}"}</script>
+			<script type="application/json" data-sveltekit-fetched data-url="/api/pagesManifest.json">{"status":200,"statusText":"","headers":{},"body":"{\"label\":\"Home\",\"href\":\"/\",\"children\":{\"analysis\":{\"label\":\"analysis\",\"children\":{\"car-performance\":{\"label\":\"car performance\",\"href\":\"/analysis/car-performance\",\"children\":{},\"frontMatter\":{\"title\":\"Car Performance\",\"sidebar_position\":1},\"isTemplated\":false,\"isPage\":true},\"racecraft\":{\"label\":\"racecraft\",\"href\":\"/analysis/racecraft\",\"children\":{},\"frontMatter\":{\"title\":\"Racecraft\",\"sidebar_position\":3},\"isTemplated\":false,\"isPage\":true},\"teammates\":{\"label\":\"teammates\",\"href\":\"/analysis/teammates\",\"children\":{},\"frontMatter\":{\"title\":\"Teammate Battles\",\"sidebar_position\":2},\"isTemplated\":false,\"isPage\":true},\"tyres\":{\"label\":\"tyres\",\"href\":\"/analysis/tyres\",\"children\":{},\"frontMatter\":{\"title\":\"Tyre Degradation\",\"sidebar_position\":4},\"isTemplated\":false,\"isPage\":true}},\"frontMatter\":{},\"isTemplated\":false,\"isPage\":false},\"compare\":{\"label\":\"compare\",\"href\":\"/compare\",\"children\":{},\"frontMatter\":{\"title\":\"Head to Head\",\"sidebar_position\":4},\"isTemplated\":false,\"isPage\":true},\"drivers\":{\"label\":\"drivers\",\"href\":\"/drivers\",\"children\":{\"[driver]\":{\"children\":{},\"isTemplated\":true,\"isPage\":true}},\"frontMatter\":{\"title\":\"Drivers\",\"sidebar_position\":2},\"isTemplated\":false,\"isPage\":true},\"races\":{\"label\":\"races\",\"href\":\"/races\",\"children\":{\"[meeting]\":{\"children\":{},\"isTemplated\":true,\"isPage\":true}},\"frontMatter\":{\"title\":\"Races\",\"sidebar_position\":1},\"isTemplated\":false,\"isPage\":true},\"teams\":{\"label\":\"teams\",\"href\":\"/teams\",\"children\":{},\"frontMatter\":{\"title\":\"Teams\",\"sidebar_position\":3},\"isTemplated\":false,\"isPage\":true}},\"frontMatter\":{\"title\":\"F1 Season Overview\"},\"isTemplated\":false,\"isPage\":true}"}</script>
+			<script type="application/json" data-sveltekit-fetched data-url="/api//drivers/[driver]/evidencemeta.json">{"status":200,"statusText":"","headers":{},"body":"{\"queries\":[{\"id\":\"seasons\",\"compiledQueryString\":\"select * from f1.drivers where driver_id = '${params.driver}' order by year desc\",\"inputQueryString\":\"select * from f1.drivers where driver_id = '${params.driver}' order by year desc\",\"compiled\":false,\"inline\":true},{\"id\":\"career\",\"compiledQueryString\":\"select\\n    count(*)                 as seasons,\\n    sum(starts)              as starts,\\n    sum(wins)                as wins,\\n    sum(podiums)             as podiums,\\n    sum(poles)               as poles,\\n    sum(championship_points) as points\\nfrom (select * from f1.drivers where driver_id = '${params.driver}' order by year desc)\",\"inputQueryString\":\"select\\n    count(*)                 as seasons,\\n    sum(starts)              as starts,\\n    sum(wins)                as wins,\\n    sum(podiums)             as podiums,\\n    sum(poles)               as poles,\\n    sum(championship_points) as points\\nfrom ${seasons}\",\"compiled\":true,\"inline\":true},{\"id\":\"finishes\",\"compiledQueryString\":\"select cast(year as integer)::varchar as season, round_number, meeting_name, position\\nfrom f1.results\\nwhere driver_id = '${params.driver}' and session_name = 'Race' and position is not null\\norder by year, round_number\",\"inputQueryString\":\"select cast(year as integer)::varchar as season, round_number, meeting_name, position\\nfrom f1.results\\nwhere driver_id = '${params.driver}' and session_name = 'Race' and position is not null\\norder by year, round_number\",\"compiled\":false,\"inline\":true},{\"id\":\"quali_h2h\",\"compiledQueryString\":\"with mine as (\\n    select session_key, year, team_name, position\\n    from f1.results\\n    where driver_id = '${params.driver}' and session_name = 'Qualifying' and position is not null\\n),\\nmate as (\\n    select r.session_key, r.driver_name as teammate, r.position\\n    from f1.results r\\n    join mine m on m.session_key = r.session_key and m.team_name = r.team_name\\n    where r.driver_id \u003C> '${params.driver}' and r.session_name = 'Qualifying' and r.position is not null\\n)\\nselect\\n    m.year,\\n    t.teammate,\\n    count(*) filter (m.position \u003C t.position) as ahead,\\n    count(*) filter (m.position > t.position) as behind\\nfrom mine m join mate t using (session_key)\\ngroup by all\\norder by m.year desc, (ahead + behind) desc\",\"inputQueryString\":\"with mine as (\\n    select session_key, year, team_name, position\\n    from f1.results\\n    where driver_id = '${params.driver}' and session_name = 'Qualifying' and position is not null\\n),\\nmate as (\\n    select r.session_key, r.driver_name as teammate, r.position\\n    from f1.results r\\n    join mine m on m.session_key = r.session_key and m.team_name = r.team_name\\n    where r.driver_id \u003C> '${params.driver}' and r.session_name = 'Qualifying' and r.position is not null\\n)\\nselect\\n    m.year,\\n    t.teammate,\\n    count(*) filter (m.position \u003C t.position) as ahead,\\n    count(*) filter (m.position > t.position) as behind\\nfrom mine m join mate t using (session_key)\\ngroup by all\\norder by m.year desc, (ahead + behind) desc\",\"compiled\":false,\"inline\":true}]}"}</script>
+			<script>
+				{
+					__sveltekit_7fi6oh = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("/_app/immutable/entry/start.B3uyP14E.js"),
+						import("/_app/immutable/entry/app.BQDAQzQu.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 11],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		
+
+			<!-- SplashScreen -->
+			<div
+				aria-disabled
+				id="__evidence_project_splash"
+				data-test-id="__evidence_project_splash"
+				style="visibility: hidden"
+			>
+				<svg width="100" height="100" viewBox="-8 -8 588 588" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M7.19462e-05 74.3583C109.309 74.3583 195.795 86.2578 286.834 37.825C377.872 -10.6077 466.416 1.29174 573.667 1.29175L573.667 126.549C466.416 126.549 377.373 114.91 286.834 163.082C196.294 211.254 109.309 199.615 6.11417e-05 199.615L7.19462e-05 74.3583Z"
+						class="draw-path"
+					/>
+					<path
+						d="M573.669 499.31C464.36 499.31 377.874 487.411 286.835 535.843C195.797 584.276 107.252 572.377 0.0014801 572.377V447.12C107.252 447.12 196.295 458.758 286.835 410.586C377.375 362.415 464.36 374.053 573.669 374.053V499.31Z"
+						class="draw-path"
+					/>
+					<path
+						d="M452.896 186.499C395.028 187.686 341.581 194.947 286.835 224.074C211.396 264.212 136.995 262.826 52.2355 261.247C35.2696 260.931 17.8887 260.608 0.0014801 260.608V385.865C18.1032 385.865 35.6721 386.204 52.81 386.534C137.212 388.162 211.162 389.589 286.835 349.331C341.838 320.07 395.18 312.831 452.896 311.685V186.499Z"
+						class="draw-path"
+					/>
+				</svg>
+			</div>
+		</div>
+	</body>
+</html>
+
+<style>
+	#__evidence_project_splash {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9999;
+	}
+
+	[data-theme='dark'] #__evidence_project_splash {
+		background-color: #000000;
+	}
+
+	.draw-path {
+		fill: #000000;
+		animation: blinking-logo 2s;
+		animation-fill-mode: both;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	[data-theme='dark'] .draw-path {
+		fill: #ffffff;
+	}
+
+	@keyframes blinking-logo {
+		0% {
+			fill-opacity: 1;
+		}
+		50% {
+			fill-opacity: 0.2;
+		}
+		100% {
+			fill-opacity: 1;
+		}
+	}
+</style>
